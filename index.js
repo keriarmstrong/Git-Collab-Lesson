@@ -1,14 +1,17 @@
-function createPerson(name, age) {
+function createPerson(hamsterOwnersName, hamsterOwnersAge) {
     return {
-      name,
-      age,
-      friends: [],
+      hamsterOwnersName,
+      hamsterOwnersAge,
+      friends: [],  // hamsters are friends
     };
   }
+
+// kilroy was here
   
   function addPersonAsFriend(person, someoneIKnow) {
     person.friends.push(someoneIKnow);
     return person;
+
   }
   
   module.exports = {
