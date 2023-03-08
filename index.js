@@ -6,9 +6,9 @@ function createPerson(hamsterOwnersName, hamsterOwnersAge) {
     };
   }
 
-  function addPersonAsFriend(friendo, aFriendOfHamsterOwner) {
-    friendo.friends.push(aFriendOfHamsterOwner);
-    return friendo;
+  function addPersonAsFriend(theLionKing, aFriendOfHamsterOwner) {
+    theLionKing.friends.push(aFriendOfHamsterOwner);
+    return theLionKing;
 
   }
   
