@@ -5,10 +5,11 @@ function createPerson(hamsterOwnersName, hamsterOwnersAge) {
       friends: [],  // hamsters are friends
     };
   }
-  
+
   function addPersonAsFriend(friendArrayOfHamsterOwner, aFriendOfHamsterOwner) {
     friendArrayOfHamsterOwner.friends.push(aFriendOfHamsterOwner);
     return friendArrayOfHamsterOwner;
+
   }
   
   module.exports = {
